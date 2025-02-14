@@ -95,18 +95,23 @@ function tieneDuplicados3(lista) {
 }
 
 // Función que retorna el elemento más repetido de una lista
-function elementoMasRepetido1(lista) {
-    let mapa = {};
-    let maxElemento = lista[0], maxFrecuencia = 0;
-    for (let elem of lista) {
-        mapa[elem] = (mapa[elem] || 0) + 1;
-        if (mapa[elem] > maxFrecuencia) {
-            maxFrecuencia = mapa[elem];
-            maxElemento = elem;
+function elementoMasRepetido(lista) {
+    let contador = {};
+    let maxElemento = null;
+    let maxFrecuencia = 0;
+
+    for (let num of lista) {
+        contador[num] = (contador[num] || 0) + 1;
+
+        if (contador[num] > maxFrecuencia) {
+            maxFrecuencia = contador[num];
+            maxElemento = num;
         }
     }
+
     return maxElemento;
 }
+
 
 function elementoMasRepetido2(lista) {
     let maxElemento = lista[0], maxFrecuencia = 0;
