@@ -14,8 +14,8 @@ function desglosarString(texto, tipo) {
 }
 
 // Pruebas
-console.log(desglosarString("murcielagos", "vocales"));      // 5
-console.log(desglosarString("murcielagos", "consonantes"));  // 6
+console.log(desglosarString("murcielagos", "vocales"));      
+console.log(desglosarString("murcielagos", "consonantes"));  
 
 function twoSum(nums, target) {
     let mapa = new Map();
@@ -35,9 +35,9 @@ function twoSum(nums, target) {
 }
 
 // Pruebas
-console.log(allTwoSum([2, 7, 11, 15], 9));  // [[0, 1]]
-console.log(allTwoSum([3, 4, 2, 4], 6));    // [[1, 2], [2, 3]]
-console.log(allTwoSum([1, 2, 3, 4, 5], 6)); // [[1, 3], [2, 4]]
+console.log(allTwoSum([2, 7, 11, 15], 9)); 
+console.log(allTwoSum([3, 4, 2, 4], 6));    
+console.log(allTwoSum([1, 2, 3, 4, 5], 6)); 
 
 
 function conversionRomana(romano) {
@@ -63,7 +63,7 @@ function conversionRomana(romano) {
 }
 
 // Pruebas
-console.log(conversionRomana("III"));     // 3
-console.log(conversionRomana("XIV"));     // 14
-console.log(conversionRomana("MMXXIV"));  // 2024
-console.log(conversionRomana("MCMXCVII"));  // 1997
+console.log(conversionRomana("III"));    
+console.log(conversionRomana("XIV"));     
+console.log(conversionRomana("MMXXIV"));  
+console.log(conversionRomana("MCMXCVII"));  
