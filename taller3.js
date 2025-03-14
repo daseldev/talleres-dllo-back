@@ -17,7 +17,7 @@ function desglosarString(texto, tipo) {
 console.log(desglosarString("murcielagos", "vocales"));      // 5
 console.log(desglosarString("murcielagos", "consonantes"));  // 6
 
-function allTwoSum(nums, target) {
+function twoSum(nums, target) {
     let mapa = new Map();
     let resultados = [];
 
